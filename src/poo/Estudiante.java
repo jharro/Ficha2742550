@@ -13,6 +13,6 @@ public class Estudiante extends Persona{
     @Override
     public String toString() {
         return "Datos del estudiante\n" +
-                super.toString()+"Correo: "+this.correo+"\nFicha: "+this.ficha;
+                super.toString()+"\nCorreo: "+this.correo+"\nFicha: "+this.ficha;
     }
 }
